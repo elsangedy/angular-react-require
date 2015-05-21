@@ -1,0 +1,17 @@
+{
+  "name": "angularjs-reactjs-requirejs",
+  "version": "1.0.0",
+  "description": "Integração do AngularJS, ReactJS e RequireJS",
+  "main": "gulpfile.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/munir7/angularjs-reactjs-requirejs.git"
+  },
+  "author": "Munir Ahmed <elsangedy@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/munir7/angularjs-reactjs-requirejs",
+  "devDependencies": {
+    "browser-sync": "^2.6.5",
+    "gulp": "^3.8.11"
+  }
+}

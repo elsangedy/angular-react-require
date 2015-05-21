@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+<head>
+  <title>angularjs-reactjs-requirejs</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  <style>body{padding-top:50px}</style>
+</head>
+<body ng-controller="TabelaCtrl as vm">
+  <div class="container">
+    <button class="btn btn-primary" ng-click="vm.regenerate()">Refresh list <small>(Modified date)</small></button></p>
+
+    <tabela table="vm.table">
+  </div>
+
+  <script data-main="config" src="vendor/require.min.js"></script>
+</body>
+</html>
